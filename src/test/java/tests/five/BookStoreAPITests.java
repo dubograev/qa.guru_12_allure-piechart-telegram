@@ -1,10 +1,12 @@
-package tests;
+package tests.five;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.get;
 import static org.hamcrest.Matchers.is;
 
+@Disabled("The whole class")
 public class BookStoreAPITests {
 
     @Test
