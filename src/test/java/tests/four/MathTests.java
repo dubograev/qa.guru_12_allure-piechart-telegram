@@ -9,12 +9,12 @@ public class MathTests {
 
     @Test
     void squareTest() {
-        assertEquals(11, Math.sqrt(81));
+        assertEquals(9, Math.sqrt(81));
     }
 
     @Test
     void maxTest() {
-        assertEquals(400, Math.max(205, 417));
+        assertEquals(417, Math.max(205, 417));
     }
 
     @Test
